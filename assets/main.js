@@ -26,21 +26,27 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "Muộn rồi mà sao còn",
+      singer: "Sơn Tùng MTP ft.Khánh-Rùa ",
+      path: "./assets/muonRoiMaSaoCon.mp3",
+      image: "./assets/MRMSC.jpg"
+    },
+    {
       name: "Em của ngày hôm qua ",
-      singer: "Sơn Tùng - MTP",
+      singer: "Sơn Tùng MTP ft.Khánh-Rùa ",
       path: "./assets/song1.mp3",
       image: "https://upload.wikimedia.org/wikipedia/vi/thumb/5/5d/Em_c%E1%BB%A7a_ng%C3%A0y_h%C3%B4m_qua.png/220px-Em_c%E1%BB%A7a_ng%C3%A0y_h%C3%B4m_qua.png"
     },
     {
       name: "Có Chắc Yêu Là Đây",
-      singer: "Sơn Tùng - MTP",
+      singer: "Sơn Tùng MTP ft.Khánh-Rùa",
       path: "./assets/song2.mp3",
       image:"https://vnreview.vn/image/20/90/28/2090283.jpg"
     },
 
     {
       name: "Remember me",
-      singer: "Sơn Tùng - MTP",
+      singer: "Sơn Tùng MTP ft.Khánh-Rùa",
       path: "./assets/song3.mp3",
       image:
         "https://i.ytimg.com/vi/6Edc6xxV93M/maxresdefault.jpg"
